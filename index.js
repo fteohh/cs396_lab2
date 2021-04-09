@@ -20,7 +20,7 @@ const config = require("./config/config")[env || "development"];
 const mongoose = require("mongoose");
 
 console.log("Trying to connect to database...");
-//console.log(config.database);
+//console.log(config.database); used to check in lab2
 mongoose.connect(config.database, config.mongoConfig, err => {
     if (err) {
         console.log("Could not connect to database.");
