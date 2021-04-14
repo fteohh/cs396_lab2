@@ -19,10 +19,11 @@ const DoctorSchema = new Schema({
 });
 
 DoctorSchema.statics.create = function(obj) {
-    const doctor = new mongoose.model("Doctor", DoctorSchema)();
+    const Doctor = mongoose.model("Doctor", DoctorSchema);
+    const doctor = new Doctor();
     doctor.name = obj.name;
     doctor.seasons = obj.seasons;
-    doctor.doc_id = obj.doc_id; // for legacy support of d1, d2, etc.
+    doctor.doc_id = obj.doc_id;
     return doctor;
 }
 

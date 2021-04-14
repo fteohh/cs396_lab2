@@ -49,7 +49,16 @@ router.route("/doctors")
         res.status(501).send();
     });
 
-
+// optional:
+router.route("/doctors/favorites")
+    .get((req, res) => {
+        console.log(`GET /doctors/favorites`);
+        res.status(501).send();
+    })
+    .post((req, res) => {
+        console.log(`POST /doctors/favorites`);
+        res.status(501).send();
+    });
     
 router.route("/doctors/:id")
     .get((req, res) => {
@@ -71,15 +80,17 @@ router.route("/doctors/:id/companions")
         res.status(501).send();
     });
     
-router.route("/doctors/:id/companions/longest")
-    .get((req, res) => {
-        console.log("GET /doctors/:id/companions/longest");
-        res.status(501).send();
-    });
 
 router.route("/doctors/:id/goodparent")
     .get((req, res) => {
-        console.log("GET /doctors/:id/goodparent");
+        console.log(`GET /doctors/${req.params.id}/goodparent`);
+        res.status(501).send();
+    });
+
+// optional:
+router.route("/doctors/favorites/:doctor_id")
+    .delete((req, res) => {
+        console.log(`DELETE /doctors/favorites/${req.params.doctor_id}`);
         res.status(501).send();
     });
 
@@ -105,6 +116,17 @@ router.route("/companions/crossover")
         console.log(`GET /companions/crossover`);
         res.status(501).send();
     });
+
+// optional:
+router.route("/companions/favorites")
+    .get((req, res) => {
+        console.log(`GET /companions/favorites`);
+        res.status(501).send();
+    })
+    .post((req, res) => {
+        console.log(`POST /companions/favorites`);
+        res.status(501).send();
+    })
 
 router.route("/companions/:id")
     .get((req, res) => {
@@ -132,38 +154,10 @@ router.route("/companions/:id/friends")
         res.status(501).send();
     });
 
-//////////////////
-// EXTRA CREDIT //
-//////////////////
-router.route("/doctors/favorites")
-    .get((req, res) => {
-        console.log(`GET /doctors/favorites`);
-        res.status(501).send();
-    })
-    .post((req, res) => {
-        console.log(`POST /doctors/favorites`);
-        res.status(501).send();
-    });
-
-router.route("/doctors/favorites/:id")
+// optional:
+router.route("/companions/favorites/:companion_id")
     .delete((req, res) => {
-        console.log(`DELETE /doctors/favorites/:id`);
-        res.status(501).send();
-    });
-
-router.route("/companions/favorites")
-    .get((req, res) => {
-        console.log(`GET /companions/favorites`);
-        res.status(501).send();
-    })
-    .post((req, res) => {
-        console.log(`POST /companions/favorites`);
-        res.status(501).send();
-    })
-
-router.route("/companions/favorites/:id")
-    .delete((req, res) => {
-        console.log(`DELETE /companions/favorites/:id`);
+        console.log(`DELETE /companions/favorites/${req.params.companion_id}`);
         res.status(501).send();
     });
 

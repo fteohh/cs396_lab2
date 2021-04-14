@@ -1,351 +1,619 @@
 {
     "doctors": [
         {
-            "_id": "d1",
+            "seasons": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "_id": "6075029f746e3f38a5f0e947",
             "name": "William Hartnell",
-            "seasons": [1, 2, 3, 4]
+            "doc_id": "d1"
         },
         {
-            "_id": "d2",
+            "seasons": [
+                4,
+                5,
+                6
+            ],
+            "_id": "6075029f746e3f38a5f0e948",
             "name": "Patrick Troughton",
-            "seasons": [4, 5, 6]
+            "doc_id": "d2"
         },
         {
-            "_id": "d3",
+            "seasons": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "_id": "6075029f746e3f38a5f0e949",
             "name": "Jon Pertwee",
-            "seasons": [7, 8, 9, 10, 11]
+            "doc_id": "d3"
         },
         {
-            "_id": "d4",
+            "seasons": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "_id": "6075029f746e3f38a5f0e94a",
             "name": "Tom Baker",
-            "seasons": [12, 13, 14, 15, 16, 17, 18]
+            "doc_id": "d4"
         },
         {
-            "_id": "d5",
+            "seasons": [
+                19,
+                20,
+                21
+            ],
+            "_id": "6075029f746e3f38a5f0e94b",
             "name": "Peter Davison",
-            "seasons": [19, 20, 21]
+            "doc_id": "d5"
         },
         {
-            "_id": "d6",
+            "seasons": [
+                22,
+                23
+            ],
+            "_id": "6075029f746e3f38a5f0e94c",
             "name": "Colin Baker",
-            "seasons": [22, 23]
+            "doc_id": "d6"
         },
         {
-            "_id": "d7",
+            "seasons": [
+                24,
+                25,
+                26
+            ],
+            "_id": "6075029f746e3f38a5f0e94d",
             "name": "Sylvester McCoy",
-            "seasons": [24, 25, 26]
+            "doc_id": "d7"
         },
         {
-            "_id": "d8",
+            "seasons": [],
+            "_id": "6075029f746e3f38a5f0e94e",
             "name": "Paul McGann",
-            "seasons": []
+            "doc_id": "d8"
         },
         {
-            "_id": "d9",
-            "name": "Christopher Eccelson",
-            "seasons": [27]
-        },
-        {
-            "_id": "d10",
-            "name": "David Tennant",
-            "seasons": [28, 29, 30]
-        },
-        {
-            "_id": "d11",
-            "name": "Matt Smith",
-            "seasons": [31, 32, 33]
-        },
-        {
-            "_id": "d12",
+            "seasons": [
+                34,
+                35,
+                36
+            ],
+            "_id": "6075029f746e3f38a5f0e952",
             "name": "Peter Capaldi",
-            "seasons": [34, 35, 36]
+            "doc_id": "d12"
         },
         {
-            "_id": "d13",
+            "seasons": [
+                28,
+                29,
+                30
+            ],
+            "_id": "6075029f746e3f38a5f0e950",
+            "name": "David Tennant",
+            "doc_id": "d10"
+        },
+        {
+            "seasons": [
+                27
+            ],
+            "_id": "6075029f746e3f38a5f0e94f",
+            "name": "Christopher Eccelson",
+            "doc_id": "d9"
+        },
+        {
+            "seasons": [
+                37,
+                38,
+                39
+            ],
+            "_id": "6075029f746e3f38a5f0e953",
             "name": "Jodie Whittaker",
-            "seasons": [37, 38, 39]
+            "doc_id": "d13"
+        },
+        {
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "6075029f746e3f38a5f0e951",
+            "name": "Matt Smith",
+            "doc_id": "d11"
         }
     ],
     "companions": [
         {
-            "_id": "c1_1",
-            "name": "Carole Ann Ford",
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e954",
+            "alive": true,
             "character": "Susan Foreman",
-            "doctors": ["d1"],
-            "seasons": [1, 2],
-            "alive": true
+            "name": "Carole Ann Ford"
         },
         {
-            "_id": "c1_2",
-            "name": "Jacqueline Hill",
-            "character": "Barbara Wright",
-            "doctors": ["d1"],
-            "seasons": [1, 2],
-            "alive": true
-        },
-        {
-            "_id": "c1_3",
-            "name": "William Russell",
-            "character": "Ian Chesterton",
-            "doctors": ["d1"],
-            "seasons": [1, 2],
-            "alive": true
-        },
-        {
-            "_id": "c2_1",
-            "name": "Anneke Wills",
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4
+            ],
+            "_id": "607502a0746e3f38a5f0e957",
+            "alive": true,
             "character": "Polly",
-            "doctors": ["d2"],
-            "seasons": [4],
-            "alive": true
+            "name": "Anneke Wills"
         },
         {
-            "_id": "c2_2",
-            "name": "Michael Craze",
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4
+            ],
+            "_id": "607502a0746e3f38a5f0e958",
+            "alive": true,
             "character": "Ben Jackson",
-            "doctors": ["d2"],
-            "seasons": [4],
-            "alive": true
+            "name": "Michael Craze"
         },
         {
-            "_id": "c2_3",
-            "name": "Frazer Hines",
-            "character": "Jamie McCrimmon",
-            "doctors": ["d2"],
-            "seasons": [4, 5, 6, 22],
-            "alive": true
-        },
-        {
-            "_id": "c3_1",
-            "name": "Caroline John",
-            "character": "Liz Shaw",
-            "doctors": ["d3"],
-            "seasons": [7],
-            "alive": true
-        },
-        {
-            "_id": "c3_2",
-            "name": "Katy Manning",
-            "character": "Jo Grant",
-            "doctors": ["d3"],
-            "seasons": [8, 9, 10],
-            "alive": true
-        },
-        {
-            "_id": "c3_3__4_1",
-            "name": "Elisabeth Sladen",
-            "character": "Sarah Jane Smith",
-            "doctors": ["d3", "d4"],
-            "seasons": [11, 12, 13, 14],
-            "alive": true
-        },
-        {
-            "_id": "c4_2",
-            "name": "Ian Merter",
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                12,
+                13
+            ],
+            "_id": "607502a0746e3f38a5f0e95d",
+            "alive": true,
             "character": "Harry Sullivan",
-            "doctors": ["d4"],
-            "seasons": [12, 13],
-            "alive": true
+            "name": "Ian Merter"
         },
         {
-            "_id": "c4_3",
-            "name": "Louise Jameson",
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e955",
+            "alive": true,
+            "character": "Barbara Wright",
+            "name": "Jacqueline Hill"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4,
+                5,
+                6,
+                22
+            ],
+            "_id": "607502a0746e3f38a5f0e959",
+            "alive": true,
+            "character": "Jamie McCrimmon",
+            "name": "Frazer Hines"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949"
+            ],
+            "seasons": [
+                7
+            ],
+            "_id": "607502a0746e3f38a5f0e95a",
+            "alive": true,
+            "character": "Liz Shaw",
+            "name": "Caroline John"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949"
+            ],
+            "seasons": [
+                8,
+                9,
+                10
+            ],
+            "_id": "607502a0746e3f38a5f0e95b",
+            "alive": true,
+            "character": "Jo Grant",
+            "name": "Katy Manning"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949",
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "_id": "607502a0746e3f38a5f0e95c",
+            "alive": true,
+            "character": "Sarah Jane Smith",
+            "name": "Elisabeth Sladen"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e956",
+            "alive": true,
+            "character": "Ian Chesterton",
+            "name": "William Russell"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                14,
+                15
+            ],
+            "_id": "607502a0746e3f38a5f0e95e",
+            "alive": true,
             "character": "Leela",
-            "doctors": ["d4"],
-            "seasons": [14, 15],
-            "alive": true
+            "name": "Louise Jameson"
         },
         {
-            "_id": "c4_4",
-            "name": "John Leeson",
-            "character": "K-9",
-            "doctors": ["d4"],
-            "seasons": [15, 16, 17, 18],
-            "alive": false
-        },
-        {
-            "_id": "c4_5__5_1",
-            "name": "Matthew Waterhouse",
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19
+            ],
+            "_id": "607502a0746e3f38a5f0e960",
+            "alive": false,
             "character": "Adric",
-            "doctors": ["d4", "d5"],
-            "seasons": [18, 19],
-            "alive": false
+            "name": "Matthew Waterhouse"
         },
         {
-            "_id": "c4_6__5_2",
-            "name": "Sarah Sutton",
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                15,
+                16,
+                17,
+                18
+            ],
+            "_id": "607502a0746e3f38a5f0e95f",
+            "alive": false,
+            "character": "K-9",
+            "name": "John Leeson"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19,
+                20
+            ],
+            "_id": "607502a0746e3f38a5f0e961",
+            "alive": true,
             "character": "Nyssa",
-            "doctors": ["d4", "d5"],
-            "seasons": [18, 19, 20],
-            "alive": true
+            "name": "Sarah Sutton"
         },
         {
-            "_id": "c4_7__5_3",
-            "name": "Janet Fielding",
-            "character": "Tegan Jovanka",
-            "doctors": ["d4", "d5"],
-            "seasons": [18, 19, 20, 21],
-            "alive": true
-        },
-        {
-            "_id": "c5_4",
-            "name": "Mark Strickson",
-            "character": "Vislor Turlough",
-            "doctors": ["d5"],
-            "seasons": [20, 21],
-            "alive": true
-        },
-        {
-            "_id": "c5_5__6_1",
-            "name": "Nicola Bryant",
-            "character": "Peri Brown",
-            "doctors": ["d5", "d6"],
-            "seasons": [21, 22, 23],
-            "alive": true
-        },
-        {
-            "_id": "c6_2__7_1",
-            "name": "Bonnie Langford",
-            "character": "Mel Bush",
-            "doctors": ["d6", "d7"],
-            "seasons": [23, 24],
-            "alive": true
-        },
-        {
-            "_id": "c7_2",
-            "name": "Sophie Aldred",
+            "doctors": [
+                "6075029f746e3f38a5f0e94d"
+            ],
+            "seasons": [
+                24,
+                25,
+                26
+            ],
+            "_id": "607502a0746e3f38a5f0e966",
+            "alive": true,
             "character": "Ace",
-            "doctors": ["d7"],
-            "seasons": [24, 25, 26],
-            "alive": true
+            "name": "Sophie Aldred"
         },
         {
-            "_id": "c8_1",
-            "name": "Daphne Ashbrook",
-            "character": "Grace Holloway",
-            "doctors": ["d8"],
+            "doctors": [
+                "6075029f746e3f38a5f0e94c",
+                "6075029f746e3f38a5f0e94d"
+            ],
+            "seasons": [
+                23,
+                24
+            ],
+            "_id": "607502a0746e3f38a5f0e965",
+            "alive": true,
+            "character": "Mel Bush",
+            "name": "Bonnie Langford"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19,
+                20,
+                21
+            ],
+            "_id": "607502a0746e3f38a5f0e962",
+            "alive": true,
+            "character": "Tegan Jovanka",
+            "name": "Janet Fielding"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                20,
+                21
+            ],
+            "_id": "607502a0746e3f38a5f0e963",
+            "alive": true,
+            "character": "Vislor Turlough",
+            "name": "Mark Strickson"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94b",
+                "6075029f746e3f38a5f0e94c"
+            ],
+            "seasons": [
+                21,
+                22,
+                23
+            ],
+            "_id": "607502a0746e3f38a5f0e964",
+            "alive": true,
+            "character": "Peri Brown",
+            "name": "Nicola Bryant"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94e"
+            ],
             "seasons": [],
-            "alive": true
+            "_id": "607502a0746e3f38a5f0e967",
+            "alive": true,
+            "character": "Grace Holloway",
+            "name": "Daphne Ashbrook"
         },
         {
-            "_id": "c9_1__10_1",
-            "name": "Billie Piper",
+            "doctors": [
+                "6075029f746e3f38a5f0e94f",
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                27,
+                28,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e968",
+            "alive": true,
             "character": "Rose Tyler",
-            "doctors": ["d9", "d10"],
-            "seasons": [27, 28, 30],
-            "alive": true
+            "name": "Billie Piper"
         },
         {
-            "_id": "c9_2",
-            "name": "Bruno Langley",
-            "character": "Adam Mitchell",
-            "doctors": ["d9"],
-            "seasons": [27],
-            "alive": true
-        },
-        {
-            "_id": "c9_3__10_5__13_4",
-            "name": "John Barrowman",
+            "doctors": [
+                "6075029f746e3f38a5f0e94f",
+                "6075029f746e3f38a5f0e950",
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                27,
+                29,
+                30,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e96a",
+            "alive": true,
             "character": "Captain Jack Harkness",
-            "doctors": ["d9", "d10", "d13"],
-            "seasons": [27, 29, 30, 38],
-            "alive": true
+            "name": "John Barrowman"
         },
         {
-            "_id": "c10_2",
-            "name": "Noel Clarke",
+            "doctors": [
+                "6075029f746e3f38a5f0e94f"
+            ],
+            "seasons": [
+                27
+            ],
+            "_id": "607502a0746e3f38a5f0e969",
+            "alive": true,
+            "character": "Adam Mitchell",
+            "name": "Bruno Langley"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                28,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96b",
+            "alive": true,
             "character": "Mickey Smith",
-            "doctors": ["d10"],
-            "seasons": [28, 30],
-            "alive": true
+            "name": "Noel Clarke"
         },
         {
-            "_id": "c10_3",
-            "name": "Catherine Tate",
-            "character": "Donna Noble",
-            "doctors": ["d10"],
-            "seasons": [30],
-            "alive": true
-        },
-        {
-            "_id": "c10_4",
-            "name": "Freema Agyeman",
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                29,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96d",
+            "alive": true,
             "character": "Martha Jones",
-            "doctors": ["d10"],
-            "seasons": [29, 30],
-            "alive": true
+            "name": "Freema Agyeman"
         },
         {
-            "_id": "c11_1",
-            "name": "Karen Gillan",
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96c",
+            "alive": true,
+            "character": "Donna Noble",
+            "name": "Catherine Tate"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951"
+            ],
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "607502a0746e3f38a5f0e96e",
+            "alive": false,
             "character": "Amy Pond",
-            "doctors": ["d11"],
-            "seasons": [31, 32, 33],
-            "alive": false
+            "name": "Karen Gillan"
         },
         {
-            "_id": "c11_2",
-            "name": "Arthur Davill",
-            "character": "Rory Williams",
-            "doctors": ["d11"],
-            "seasons": [31, 32, 33],
-            "alive": false
-        },
-        {
-            "_id": "c11_3__12_1",
-            "name": "Alex Kingston",
-            "character": "River Song",
-            "doctors": ["d11", "d12"],
-            "seasons": [32, 35],
-            "alive": true
-        },
-        {
-            "_id": "c11_4__12_2",
-            "name": "Jenna Coleman",
+            "doctors": [
+                "6075029f746e3f38a5f0e951",
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                33,
+                34,
+                35
+            ],
+            "_id": "607502a0746e3f38a5f0e971",
+            "alive": false,
             "character": "Clara Oswald",
-            "doctors": ["d11", "d12"],
-            "seasons": [33, 34, 35],
-            "alive": false
+            "name": "Jenna Coleman"
         },
         {
-            "_id": "c12_3",
-            "name": "Matt Lucas",
+            "doctors": [
+                "6075029f746e3f38a5f0e951"
+            ],
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "607502a0746e3f38a5f0e96f",
+            "alive": false,
+            "character": "Rory Williams",
+            "name": "Arthur Davill"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951",
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                32,
+                35
+            ],
+            "_id": "607502a0746e3f38a5f0e970",
+            "alive": true,
+            "character": "River Song",
+            "name": "Alex Kingston"
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                36
+            ],
+            "_id": "607502a0746e3f38a5f0e972",
+            "alive": true,
             "character": "Nardole",
-            "doctors": ["d12"],
-            "seasons": [36],
-            "alive": true
+            "name": "Matt Lucas"
         },
         {
-            "_id": "c12_4",
-            "name": "Pearl Mackie",
+            "doctors": [
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                36
+            ],
+            "_id": "607502a0746e3f38a5f0e973",
+            "alive": false,
             "character": "Bill Potts",
-            "doctors": ["d12"],
-            "seasons": [36],
-            "alive": false
+            "name": "Pearl Mackie"
         },
         {
-            "_id": "c13_1",
-            "name": "Bradley Walsh",
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e974",
+            "alive": true,
             "character": "Graham O'Brien",
-            "doctors": ["d13"],
-            "seasons": [37, 38],
-            "alive": true
+            "name": "Bradley Walsh"
         },
         {
-            "_id": "c13_2",
-            "name": "Tosin Cole",
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e975",
+            "alive": true,
             "character": "Ryan Sinclair",
-            "doctors": ["d13"],
-            "seasons": [37, 38],
-            "alive": true
+            "name": "Tosin Cole"
         },
         {
-            "_id": "c13_3",
-            "name": "Mandip Gill",
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38,
+                39
+            ],
+            "_id": "607502a0746e3f38a5f0e976",
+            "alive": true,
             "character": "Yasmin Khan",
-            "doctors": ["d13"],
-            "seasons": [37, 38, 39],
-            "alive": true
+            "name": "Mandip Gill"
         }
+    ],
+    "favoriteDoctors": [
+        { "doctor" : "6075029f746e3f38a5f0e94a" },
+        { "doctor" : "6075029f746e3f38a5f0e94f" }
+    ],
+    "favoriteCompanions": [
+        { "companion" : "607502a0746e3f38a5f0e95c" },
+        { "companion" : "607502a0746e3f38a5f0e966" }
     ]
 }

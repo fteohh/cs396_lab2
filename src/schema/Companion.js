@@ -23,11 +23,12 @@ const CompanionSchema = new Schema({
 });
 
 CompanionSchema.statics.create = function(obj) {
-    // console.log(obj.doctors);
-    const companion = new mongoose.model("Companion", CompanionSchema)();
+    const Companion = mongoose.model("Companion", CompanionSchema);
+    const companion = new Companion();
     companion.alive = obj.alive;
     companion.character = obj.character;
-    companion.doctors = obj.doctors;
+    companion.doctors = obj.doctors; //.map(doctor => doctor._id);
+    companion.old_doctor_ids = obj.old_doctor_ids;
     companion.name = obj.name;
     companion.seasons = obj.seasons;
     return companion;
